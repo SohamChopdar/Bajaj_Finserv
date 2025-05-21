@@ -1,7 +1,8 @@
 Problem Statement:
-You are required to calculate the number of employees who are younger than each
-employee, grouped by their respective departments. For each employee, return the
-count of employees in the same department whose age is less than theirs.
+Find the highest salary that was credited to an employee, but only for transactions that were not 
+made on the 1st day of any month. Along with the salary, you are also required to extract the 
+employee data like name (combine first name and last name into one column), age and 
+department who received this salary
 
 SELECT p.AMOUNT AS SALARY,
  CONCAT(e.FIRST_NAME, ' ', e.LAST_NAME) AS NAME,
